@@ -13,7 +13,11 @@ RSpec.describe CharacterData::Person do
       expect(bojack.born).to eq(1964)
 
       expect(bojack.images.length).to eq(3)
-      expect(bojack.images[0]).to match(/bojack1\.jpg$/)
+      bojack_poolside = bojack.images[0]
+
+      expect(bojack_poolside.filename).to eq('bojack1.jpg')
+      file = bojack_poolside.io
+      expect(file.class).to eq(File)
     end
   end
 end

@@ -12,7 +12,11 @@ module CharacterData
     attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age
 
     def self.all_images
-      @images ||= Find.find(IMG_DIR)
+      @images ||= Find.find(IMG_DIR).select do |f|
+        f.match?(/\.(webp|jpeg|jpg|png)$/)
+      end.map do |f|
+        CharacterData::Image.new(realpath: f)
+      end
     end
 
     def self.all
@@ -35,10 +39,8 @@ module CharacterData
     end
 
     def images
-      @images ||= Person.all_images.select do |file|
-        current_filename = file.split('/')[-1].split('.')[0]
-
-        current_filename.match?(/^#{Regexp.quote(self.id)}\d/)
+      @images ||= Person.all_images.select do |img|
+        img.filename.match?(/^#{Regexp.quote(self.id)}\d/)
       end
     end
 
