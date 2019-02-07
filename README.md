@@ -1,6 +1,6 @@
-A gem for generating dummy "people" data (including avatars/images) ... so sorta like a more powerful [Faker](https://github.com/stympy/faker), but just for movie / TV characters.
+Dummy TV show / movie character data for seeding "people" in your app - eg for a social networking site.
 
-Use if you need to seed some placeholder people in your app, eg for a social networking site.
+Install via `gem 'character_data', github: 'kmurph73/character_data'` in your Gemfile.
 
 ``` ruby
 => bojack = CharacterData::Person.all[0]
@@ -23,7 +23,7 @@ Use if you need to seed some placeholder people in your app, eg for a social net
    @realpath="/Users/kmurph/code/ruby/character_data/lib/data/images/bojack_horseman/bojack1.jpg">
 ```
 
-Example usage with Rails (likely in db/seeds.rb):
+Example usage with Rails' Active Storage (likely in db/seeds.rb):
 
 ``` ruby
 CharacterData::Person.all.each do |person|
@@ -36,5 +36,19 @@ CharacterData::Person.all.each do |person|
   user.save!
 end
 ```
+
+Current shows & characters (many more to come!): 
+* Bojack Horseman
+  * Bojack Horseman
+  * Princess Carolyn
+  * Diane Nguyen
+  * Todd Chavez
+  
+* The Simpsons
+  * Homer Simpson
+  * Krusty the Clown
+  * Bart Simpson
+  * Lisa Simpson
+  * Marge Simpson
 
 ![bojack](https://raw.githubusercontent.com/kmurph73/character_data/master/lib/data/images/bojack_horseman/bojack1.jpg)
