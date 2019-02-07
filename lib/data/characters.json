@@ -3,6 +3,7 @@
     "bojack_horseman": {
       "bojack": {
         "name": "Bojack Horseman",
+        "full_name": "BoJack F. Horseman",
         "job": "Actor",
         "sex": "male",
         "species": "horse",
@@ -36,6 +37,7 @@
     "the_simpsons": {
       "homer": {
         "name": "Homer Simpson",
+        "full_name": "Homer Jay Simpson",
         "bio": "As the family's provider, he works at the Springfield Nuclear Power Plant as safety inspector. Homer embodies many American working class stereotypes: he is crude, obese, incompetent, lazy, clumsy, dim-witted, hot-tempered, childish and addicted to beer, junk food and watching television. However, he often tries his hardest to be a decent man and is fiercely devoted to his family, especially when his wife and children need him the most. Despite the suburban blue-collar routine of his life, he has had a number of remarkable experiences, including going to space, climbing the tallest mountain in Springfield by himself, fighting former President George H. W. Bush and winning a Grammy Award as a member of a barbershop quartet.",
         "age": 38,
         "born": "May 12, 1956",
@@ -49,6 +51,8 @@
       },
       "bart": {
         "age": 10,
+        "name": "Bart Simpson",
+        "full_name": "Bartholomew JoJo Simpson",
         "born": "April 1",
         "sex": "male",
         "id": "bart",
@@ -56,6 +60,8 @@
       },
       "lisa": {
         "age": 8,
+        "name": "Lisa Simpson",
+        "full_name": "Lisa Marie Simpson",
         "born": "May 9",
         "sex": "female",
         "id": "lisa",
@@ -63,6 +69,7 @@
       },
       "marge": {
         "name": "Marge Simpson",
+        "full_name": "Marjorie Jacqueline Simpson",
         "born": "Oct 1, 1956",
         "age": 36,
         "sex": "female",

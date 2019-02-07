@@ -1,6 +1,5 @@
 require 'pathname'
 require 'yaml'
-require 'pry'
 require 'find'
 
 module CharacterData
@@ -9,7 +8,7 @@ module CharacterData
   IMG_DIR = DATA_DIR.join('images').freeze
 
   class Person
-    attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age
+    attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age, :full_name
 
     def email
       "#{id}@#{show_id}.com"
