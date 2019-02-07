@@ -1,0 +1,74 @@
+{
+  "characters": {
+    "bojack_horseman": {
+      "bojack": {
+        "name": "Bojack Horseman",
+        "job": "Actor",
+        "sex": "male",
+        "species": "horse",
+        "born": 1964,
+        "bio": "Born in San Francisco, California is a self-loathing anthropomorphic alcoholic horse currently in his 50s. His acting career peaked when he starred in a successful family sitcom called Horsin' Around in the late 1980s and later The Bojack Horseman Show, an edgier, less successful sitcom which was cancelled in 2007 after just one season. Though he began as a young bright-eyed actor, he has since grown bitter, deeply depressed, and jaded towards Hollywoo and whom he has become post-fame. BoJack has been shown to be caring and insightful, but his insecurities, loneliness, and desperate need for approval often result in self-destructive actions that devastate those around him. Many of his issues stem from his childhood and issues with his unhappy parents, which the audience is shown through flashbacks. At the end of season 5, BoJack checks into rehab after he developed a drug addiction to prescription painkillers he was on which caused him to strangle his co-star when she tried to take them away from him."
+      },
+      "carolyn": {
+        "name": "Princess Carolynn",
+        "bio": "(voiced by Amy Sedaris) is a pink Persian cat who is BoJack's agent in the first three seasons and former on-and-off girlfriend. Earnest and unflagging, Princess Carolyn was a top agent at Vigor agency through her dogged pursuit of new talent and large network of odd personal connections. Though she struggles to find a balance between work, her troubled personal life, and taking care of BoJack and her friends, she enjoys her fast-paced hectic lifestyle. She left Vigor to start a new agency with her then-boyfriend and coworker Rutabaga Rabitowitz. After recognizing his lack of trustworthiness and confronting her fear of being alone, she ultimately decides to leave him and run the new company named VIM by herself. After several setbacks, Princess Carolyn closes VIM in Season 3, only to reopen it as a management agency. She struggles throughout the series with starting a family, but frequently suffers miscarriages. In season 5, after several failed attempts, she successfully adopts a baby porcupine from Sadie, a young woman from her hometown in North Carolina. It is revealed in season 5 that she went to Los Angeles, California because she was accepted into UCLA.",
+        "age": "44",
+        "born": "June 7-8, 1974",
+        "species": "Persian cat",
+        "sex": "female",
+        "job": "talent agent"
+      },
+      "diane": {
+        "name": "Diane Nguyen",
+        "bio": "an American writer, misunderstood intellectual, and third-wave feminist from Boston who lived with her well-off and famous husband, Mr. Peanutbutter, until their divorce in Season 5.",
+        "age": 38,
+        "born": 1980,
+        "sex": "female",
+        "species": "human"
+      },
+      "todd": {
+        "name": "Todd Chavez",
+        "age": "27 or 28",
+        "born": 1991,
+        "bio": "Todd is an adult human male in his twenties. He has short, shaggy, dark blue hair that is mostly worn under a yellow beanie, and black stubble on his face and neck.  He typically wears a red zip hoodie with a plain white shirt underneath, grey sweatpants with white lines on the sides, and blue flip-flops."
+      }
+    },
+    "the_simpsons": {
+      "homer": {
+        "name": "Homer Simpson",
+        "bio": "As the family's provider, he works at the Springfield Nuclear Power Plant as safety inspector. Homer embodies many American working class stereotypes: he is crude, obese, incompetent, lazy, clumsy, dim-witted, hot-tempered, childish and addicted to beer, junk food and watching television. However, he often tries his hardest to be a decent man and is fiercely devoted to his family, especially when his wife and children need him the most. Despite the suburban blue-collar routine of his life, he has had a number of remarkable experiences, including going to space, climbing the tallest mountain in Springfield by himself, fighting former President George H. W. Bush and winning a Grammy Award as a member of a barbershop quartet.",
+        "age": 38,
+        "born": "May 12, 1956",
+        "sex": "male"
+      },
+      "krusty": {
+        "name": "Krusty the Clown",
+        "bio": "Krusty the Clown, born Herschel Shmoikel Pinchas Yerucham Krustofsky, was born in the Lower East Side of Springfield and is the son of Rabbi Hyman Krustofsky. Very little is known about his mother, aside from her name being Rachel and that she died when Krusty was around thirteen. Hyman strongly opposed Krusty's wish to become a clown and make people laugh, believing that it would distract him from his religion, wanting the boy to go to yeshiva instead. However, Krusty performed slapstick comedy behind his father's back.",
+        "age": 52,
+        "sex": "male"
+      },
+      "bart": {
+        "age": 10,
+        "born": "April 1",
+        "sex": "male",
+        "id": "bart",
+        "bio": "Bart's a self-proclaimed underachiever constantly in detention. He's easily distracted (even, strangely enough, by algebraic equations). His penchant for shocking people began before he was born: Bart 'mooned' Dr. Hibbert while he performed a sonogram on Marge, and moments after being born, he set fire to Homer's tie. His blood type's the very rare Double O Negative (OO-);[5] only he and Mr. Burns are known to have it."
+      },
+      "lisa": {
+        "age": 8,
+        "born": "May 9",
+        "sex": "female",
+        "id": "lisa",
+        "bio": "Lisa Marie Simpson is a charismatic 8-year-old girl, who exceeds the standard achievement level of children her age. Not to everyone's surprise, she's also the moral center of her family. In her upbringing, Lisa lacks parental involvement of Homer and Marge, which leads to hobbies like playing saxophone and guitar, riding and caring for horses, and interest in advanced studies. In school, Lisa's popularity's affected by those who view her as a geeky overachiever, which leaves her with only a few friends. Lisa Simpson's a smart, witty, independent girl who focuses on her goals and strives to reach her potential, and at age 8 she's already a member of MENSA with an IQ of 159."
+      },
+      "marge": {
+        "name": "Marge Simpson",
+        "born": "Oct 1, 1956",
+        "age": 36,
+        "sex": "female",
+        "id": "marge",
+        "bio": "Marjorie Jacqueline 'Marge' Simpson (née Bouvier) is a fictional character in the American animated sitcom The Simpsons and part of the eponymous family. She is voiced by Julie Kavner and first appeared on television in The Tracey Ullman Show short 'Good Night' on April 19, 1987. Marge was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on Life in Hell but instead decided to create a new set of characters. He named the character after his mother Margaret Groening. After appearing on The Tracey Ullman Show for three seasons, the Simpson family received their own series on Fox, which debuted December 17, 1989."
+      }
+    }
+  }
+}
