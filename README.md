@@ -1,6 +1,6 @@
-A gem for generating dummy character data, including avatars, so sorta like a more powerful [Faker](https://github.com/stympy/faker)
+A gem for generating dummy "people" data (including avatars/images) ... so sorta like a more powerful [Faker](https://github.com/stympy/faker), but just for movie / TV characters.
 
-If you need some placeholder people in your app - an example might be a social networking site.
+Use if you need to seed some placeholder people in your app, eg for a social networking site.
 
 ``` ruby
 => bojack = CharacterData::Person.all[0]
@@ -21,6 +21,20 @@ If you need some placeholder people in your app - an example might be a social n
  => #<CharacterData::Image:0x00007ffbc9c8e200 
    @filename="bojack1.jpg", 
    @realpath="/Users/kmurph/code/ruby/character_data/lib/data/images/bojack_horseman/bojack1.jpg">
+```
+
+Example usage with Rails (likely in db/seeds.rb):
+
+``` ruby
+CharacterData::Person.all.each do |person|
+  user = User.new(name: person.name, email: person.email, password: 'password')
+
+  imgs = person.images.map {|img| {io: img.file, filename: img.filename}}
+
+  user.images.attach(imgs)
+
+  user.save!
+end
 ```
 
 ![bojack](https://raw.githubusercontent.com/kmurph73/character_data/master/lib/data/images/bojack_horseman/bojack1.jpg)
