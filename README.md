@@ -1,4 +1,4 @@
-Dummy TV show / movie character data for seeding "people" in your app - eg for a social networking site.
+Dummy TV show / movie character data for seeding "people" (including avatars / images) in your app - eg for a social networking site.
 
 Install via `gem 'character_data', github: 'kmurph73/character_data'` in your Gemfile.
 
