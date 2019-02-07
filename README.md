@@ -12,10 +12,11 @@ If you need some placeholder people in your app - an example might be a social n
  @id="bojack",
  @job="Actor",
  @name="Bojack Horseman",
+ @email="bojack@bojack_horseman.com",
  @sex="male",
  @show_id="bojack_horseman",
  @species="horse">
- 
+
  => bojack_poolside = bojack.images[0] # see below!
  => #<CharacterData::Image:0x00007ffbc9c8e200 
    @filename="bojack1.jpg", 

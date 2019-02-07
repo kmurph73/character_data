@@ -11,6 +11,10 @@ module CharacterData
   class Person
     attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age
 
+    def email
+      "#{id}@#{show_id}.com"
+    end
+
     def self.all_images
       @images ||= Find.find(IMG_DIR).select do |f|
         f.match?(/\.(webp|jpeg|jpg|png)$/)

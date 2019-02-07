@@ -11,6 +11,7 @@ RSpec.describe CharacterData::Person do
 
       expect(bojack.name).to eq('Bojack Horseman')
       expect(bojack.born).to eq(1964)
+      expect(bojack.email).to eq('bojack@bojack_horseman.com')
 
       expect(bojack.images.length).to eq(3)
       bojack_poolside = bojack.images[0]
