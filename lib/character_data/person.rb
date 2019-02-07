@@ -11,14 +11,6 @@ module CharacterData
   class Person
     attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age
 
-    def images
-      @images ||= Person.all_images.select do |file|
-        current_filename = file.split('/')[-1].split('.')[0]
-
-        current_filename.match?(/^#{Regexp.quote(self.id)}\d/)
-      end
-    end
-
     def self.all_images
       @images ||= Find.find(IMG_DIR)
     end
@@ -41,5 +33,14 @@ module CharacterData
         end.flatten
       end
     end
+
+    def images
+      @images ||= Person.all_images.select do |file|
+        current_filename = file.split('/')[-1].split('.')[0]
+
+        current_filename.match?(/^#{Regexp.quote(self.id)}\d/)
+      end
+    end
+
   end
 end

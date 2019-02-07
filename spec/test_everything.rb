@@ -5,6 +5,7 @@ RSpec.describe CharacterData::Person do
   describe 'self.all' do
     it 'gets all people' do
       people = CharacterData::Person.all
+
       expect(people.length).to eq(9)
       bojack = people[0]
 
