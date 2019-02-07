@@ -10,8 +10,8 @@ module CharacterData
       @filename ||= realpath.split('/')[-1]
     end
 
-    def io
-      @io ||= File.open(realpath)
+    def file
+      @file ||= File.open(realpath)
     end
   end
 end
