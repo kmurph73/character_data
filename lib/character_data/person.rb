@@ -14,6 +14,20 @@ module CharacterData
       "#{id}@#{show_id}.com"
     end
 
+    def avatar
+      images[0]
+    end
+
+    def non_avatar_images
+      images[1..-1]
+    end
+
+    def images
+      @images ||= Person.all_images.select do |img|
+        img.filename.match?(/^#{Regexp.quote(self.id)}\d/)
+      end
+    end
+
     def self.all_images
       @images ||= Find.find(IMG_DIR).select do |f|
         f.match?(/\.(webp|jpeg|jpg|png)$/)
@@ -40,12 +54,5 @@ module CharacterData
         end.flatten
       end
     end
-
-    def images
-      @images ||= Person.all_images.select do |img|
-        img.filename.match?(/^#{Regexp.quote(self.id)}\d/)
-      end
-    end
-
   end
 end

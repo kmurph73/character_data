@@ -3,7 +3,7 @@ require 'character_data'
 
 RSpec.describe CharacterData::Person do
   describe 'self.all' do
-    it 'gets all people' do
+    it 'just friggin works' do
       people = CharacterData::Person.all
 
       expect(people.length).to eq(9)
@@ -19,6 +19,9 @@ RSpec.describe CharacterData::Person do
       expect(bojack_poolside.filename).to eq('bojack1.jpg')
       file = bojack_poolside.file
       expect(file.class).to eq(File)
+
+      expect(bojack.avatar.filename).to eq('bojack1.jpg')
+      expect(bojack.non_avatar_images.map(&:filename)).to eq(['bojack2.png', 'bojack3.jpg'])
     end
   end
 end
