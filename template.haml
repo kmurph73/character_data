@@ -4,5 +4,16 @@
     %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}
     %title Character Data
   %body
+    %h2 Characters
     - people.each do |person|
-      = person.name
+      %div{style: 'margin-top: 20px'}
+        - person.attrs.each do |attr|
+          %div
+            %b #{attr}:
+            %span{style: 'white-space:pre-wrap'}= person.send attr
+        %div
+          %b Images:
+          %div
+            - person.images.each do |img|
+              %a{href: img.path}
+                %img{src: img.path, style: 'max-width:200px'}
