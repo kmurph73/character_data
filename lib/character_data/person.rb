@@ -1,6 +1,7 @@
 require 'pathname'
 require 'yaml'
 require 'find'
+require 'json'
 
 module CharacterData
   LIB = Pathname.new(__FILE__).realpath.parent.parent.freeze
@@ -8,7 +9,12 @@ module CharacterData
   IMG_DIR = DATA_DIR.join('images').freeze
 
   class Person
-    attr_accessor :name, :bio, :id, :born, :species, :show_id, :job, :sex, :age, :full_name
+    attr_accessor :name, :full_name, :job, :sex, :species, :bio, :id, :born, :age, :species, :show_id
+    attr_reader :attrs
+
+    def initialize
+      @attrs = []
+    end
 
     def email
       "#{id}@#{show_id}.com"
@@ -47,6 +53,7 @@ module CharacterData
             person_data.each do |key, val|
               person.show_id = show
               person.send("#{key}=", val)
+              person.attrs << key
             end
 
             person

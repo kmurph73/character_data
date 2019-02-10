@@ -7,6 +7,7 @@ group :development do
   gem 'yard'
   gem 'github-markup'
   gem 'redcarpet'
+  gem 'haml'
 end
 
 group :test do

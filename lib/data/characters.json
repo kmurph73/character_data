@@ -12,28 +12,37 @@
       },
       "carolyn": {
         "name": "Princess Carolynn",
+        "job": "talent agent",
         "bio": "(voiced by Amy Sedaris) is a pink Persian cat who is BoJack's agent in the first three seasons and former on-and-off girlfriend. Earnest and unflagging, Princess Carolyn was a top agent at Vigor agency through her dogged pursuit of new talent and large network of odd personal connections. Though she struggles to find a balance between work, her troubled personal life, and taking care of BoJack and her friends, she enjoys her fast-paced hectic lifestyle. She left Vigor to start a new agency with her then-boyfriend and coworker Rutabaga Rabitowitz. After recognizing his lack of trustworthiness and confronting her fear of being alone, she ultimately decides to leave him and run the new company named VIM by herself. After several setbacks, Princess Carolyn closes VIM in Season 3, only to reopen it as a management agency. She struggles throughout the series with starting a family, but frequently suffers miscarriages. In season 5, after several failed attempts, she successfully adopts a baby porcupine from Sadie, a young woman from her hometown in North Carolina. It is revealed in season 5 that she went to Los Angeles, California because she was accepted into UCLA.",
-        "age": "44",
         "born": "June 7-8, 1974",
         "species": "Persian cat",
-        "sex": "female",
-        "job": "talent agent"
+        "sex": "female"
       },
       "diane": {
         "name": "Diane Nguyen",
         "bio": "an American writer, misunderstood intellectual, and third-wave feminist from Boston who lived with her well-off and famous husband, Mr. Peanutbutter, until their divorce in Season 5.",
-        "age": 38,
         "born": 1980,
         "sex": "female",
         "species": "human"
       },
       "todd": {
         "name": "Todd Chavez",
-        "age": "27 or 28",
         "born": 1991,
         "sex": "male",
         "species": "human",
         "bio": "Todd is an adult human male in his twenties. He has short, shaggy, dark blue hair that is mostly worn under a yellow beanie, and black stubble on his face and neck.  He typically wears a red zip hoodie with a plain white shirt underneath, grey sweatpants with white lines on the sides, and blue flip-flops."
+      },
+      "mr_pb": {
+        "name": "Mr. Peanutbutter",
+        "sex": "male",
+        "species": "dog",
+        "bio": "Mr. Peanutbutter was in born on the Labrador Peninsula in rural Canada in the late 1960s. He attended Northwestern University.\n\nHe has one brother, Captain Peanutbutter, who is five minutes older.\n\n At one point, Mr. Peanutbutter's mom got sick with Parkinson’s in her elderly age, and his brother told him he arranged for her to be sent to a farm in the country for her to run around in with no internet or telephones, where all his other relatives went when they got old, including his father later on."
+      },
+      "neal_mcbeal": {
+        "name": "Neal McBeal",
+        "species": "seal",
+        "job": "Navy SEAL",
+        "sex": "male"
       }
     },
     "the_simpsons": {
@@ -58,7 +67,7 @@
         "born": "April 1",
         "sex": "male",
         "id": "bart",
-        "bio": "Bart's a self-proclaimed underachiever constantly in detention. He's easily distracted (even, strangely enough, by algebraic equations). His penchant for shocking people began before he was born: Bart 'mooned' Dr. Hibbert while he performed a sonogram on Marge, and moments after being born, he set fire to Homer's tie. His blood type's the very rare Double O Negative (OO-);[5] only he and Mr. Burns are known to have it."
+        "bio": "Bart's a self-proclaimed underachiever constantly in detention. He's easily distracted (even, strangely enough, by algebraic equations). His penchant for shocking people began before he was born: Bart 'mooned' Dr. Hibbert while he performed a sonogram on Marge, and moments after being born, he set fire to Homer's tie. His blood type's the very rare Double O Negative (OO-); only he and Mr. Burns are known to have it."
       },
       "lisa": {
         "age": 8,
@@ -77,6 +86,10 @@
         "sex": "female",
         "id": "marge",
         "bio": "Marjorie Jacqueline 'Marge' Simpson (née Bouvier) is a fictional character in the American animated sitcom The Simpsons and part of the eponymous family. She is voiced by Julie Kavner and first appeared on television in The Tracey Ullman Show short 'Good Night' on April 19, 1987. Marge was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on Life in Hell but instead decided to create a new set of characters. He named the character after his mother Margaret Groening. After appearing on The Tracey Ullman Show for three seasons, the Simpson family received their own series on Fox, which debuted December 17, 1989."
+      },
+      "lenny": {
+        "name": "Lenny Leonard",
+        "bio": "Despite being shown in the First Church of Springfield, Lenny is a Buddhist. Born in Chicago, he is also a war hero and a three-time juror. His grandmother spent 20 years in a Soviet labor camp, hinting that Lenny may have ancestors from the former Soviet Union, or have ancestors who were POWs. Lenny was a member of the Springfield chapter of the Stonecutters secret society (Number 12, outranking Mr. Burns). Lenny seems to have little regard for his own life: \"Quick and pointless, that's the death for me\". Another example of his apathy towards salvation is that he shrugs after being pulled from a ladder which would have seen him and Homer to safety. In \"Mommie Beerest\", Lenny has a magazine cover from the week of his birth, the headline reads 'Bloodbath in Laos' this means his date birth is possibly in March of 1971, in that date Life magazine published on its cover photos of Laotian Civil War.  Lenny is left-handed. He also has a psychiatric disorder, for which he takes medication."
       }
     }
   }
