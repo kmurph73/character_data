@@ -8,6 +8,7 @@ group :development do
   gem 'github-markup'
   gem 'redcarpet'
   gem 'haml'
+  gem 'fastimage'
 end
 
 group :test do

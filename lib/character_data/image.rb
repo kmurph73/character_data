@@ -1,3 +1,5 @@
+require 'fastimage'
+
 module CharacterData
   class Image
     attr_reader :realpath
@@ -12,6 +14,14 @@ module CharacterData
 
     def file
       @file ||= File.open(realpath)
+    end
+
+    def size
+      @size ||= FastImage.size(realpath)
+    end
+
+    def type
+      @type ||= FastImage.type(realpath)
     end
 
     def path

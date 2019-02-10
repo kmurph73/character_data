@@ -13,7 +13,11 @@
             %span{style: 'white-space:pre-wrap'}= person.send attr
         %div
           %b Images:
-          %div
+          %div{style: 'display:flex'}
             - person.images.each do |img|
-              %a{href: img.path}
-                %img{src: img.path, style: 'max-width:200px'}
+              %div
+                %div
+                  %a{href: img.path}
+                    %img{src: img.path, style: 'max-width:200px'}
+                %div
+                  #{img.size.join('x')}; #{img.type}
