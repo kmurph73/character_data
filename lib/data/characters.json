@@ -65,7 +65,7 @@
         "age": 10,
         "name": "Bart Simpson",
         "full_name": "Bartholomew JoJo Simpson",
-        "born": "April 1",
+        "born": "April 1, 1980",
         "sex": "male",
         "bio": "Bart's a self-proclaimed underachiever constantly in detention. He's easily distracted (even, strangely enough, by algebraic equations). His penchant for shocking people began before he was born: Bart 'mooned' Dr. Hibbert while he performed a sonogram on Marge, and moments after being born, he set fire to Homer's tie. His blood type's the very rare Double O Negative (OO-); only he and Mr. Burns are known to have it."
       },
@@ -73,9 +73,25 @@
         "age": 8,
         "name": "Lisa Simpson",
         "full_name": "Lisa Marie Simpson",
-        "born": "May 9",
+        "born": "May 9, 1982",
         "sex": "female",
         "bio": "Lisa Marie Simpson is a charismatic 8-year-old girl, who exceeds the standard achievement level of children her age. Not to everyone's surprise, she's also the moral center of her family. In her upbringing, Lisa lacks parental involvement of Homer and Marge, which leads to hobbies like playing saxophone and guitar, riding and caring for horses, and interest in advanced studies. In school, Lisa's popularity's affected by those who view her as a geeky overachiever, which leaves her with only a few friends. Lisa Simpson's a smart, witty, independent girl who focuses on her goals and strives to reach her potential, and at age 8 she's already a member of MENSA with an IQ of 159."
+      },
+      "maggie": {
+        "name": "Maggie Simpson",
+        "full_name": "Margaret \"Maggie\" Simpson",
+        "sex": "female",
+        "age": 1,
+        "born": "January 12, 1989",
+        "bio": "Even for a child her age, Maggie shows extremely violent mannerisms and a surprising amount of physical strength. She was able to lift up a mallet and bludgeon her father with it, as well as able to drag a fully-grown man back to the shore and lift up a loaded shotgun. She is also surprisingly proficient with firearms and is a natural markswoman, shown when she accidentally shot Mr. Burns after he blocked out the sun, then later used a rifle to incapacitate Fat Tony and six of his henchmen with seven shots."
+      },
+      "apu": {
+        "born": "1952",
+        "full_name": "Dr. Apu Nahasapeemapetilon, Ph.D. Jr.",
+        "name": "Apu Nahasapeemapetilon",
+        "sex": "male",
+        "age": 38,
+        "bio": "During the 1960s, while still living in India, Apu spent some time as a student of the Maharishi Mahesh Yogi, in which capacity he became a friend of Paul and Linda McCartney. Apu's friendship with the McCartneys caused him to be referred to by some (mainly himself) as \"The Fifth Beatle\", They visited Apu in Springfield around the time he became a naturalized citizen, He said that he graduated from Calcutta Technical University, where he was the top of his class of 7,000,000 pupils and got a scholarship in the United States at the Springfield Heights Institute of Technology (S.H.I.T.). Once in the United States, he achieved a doctorate in Computer Science by designing the world's first tic-tac-toe program that only the top human players could beat (which was broken by Bart years later). He then took a job working at the Kwik-E-Mart to repay his student loan. He has great remembrance."
       },
       "marge": {
         "name": "Marge Simpson",
@@ -87,6 +103,9 @@
       },
       "lenny": {
         "name": "Lenny Leonard",
+        "full_name": "Lenford \"Lenny\" Leonard",
+        "born": "1952",
+        "age": 38,
         "sex": "male",
         "bio": "Despite being shown in the First Church of Springfield, Lenny is a Buddhist. Born in Chicago, he is also a war hero and a three-time juror. His grandmother spent 20 years in a Soviet labor camp, hinting that Lenny may have ancestors from the former Soviet Union, or have ancestors who were POWs. Lenny was a member of the Springfield chapter of the Stonecutters secret society (Number 12, outranking Mr. Burns). Lenny seems to have little regard for his own life: \"Quick and pointless, that's the death for me\". Another example of his apathy towards salvation is that he shrugs after being pulled from a ladder which would have seen him and Homer to safety. In \"Mommie Beerest\", Lenny has a magazine cover from the week of his birth, the headline reads 'Bloodbath in Laos' this means his date birth is possibly in March of 1971, in that date Life magazine published on its cover photos of Laotian Civil War.  Lenny is left-handed. He also has a psychiatric disorder, for which he takes medication."
       },
@@ -100,7 +119,7 @@
         "sex": "female",
         "age": 41,
         "job": "Fourth grade teacher at Springfield Elementary",
-        "bio": "Born in Springfield on January 21, 1949, she was an A-grade student back in school and held a Master's in education from Bryn Mawr College. Her life dream once was to teach to young students; however, after years of teaching jaded her positive image, and after her husband left for another woman, their marriage counselor, Edna started drinking her days away. She got fired from teaching in a prestigious private school[6], and eventually made her way into Springfield Elementary. From then on, she was portrayed as a caricature of the American public school system, as evidenced on the occasion when Lisa steals all the teachers' editions of the textbooks (which contain the answers). Moreover, dealing with Bart Simpson and his shenanigans did nothing but aggravate Edna's apathy."
+        "bio": "Born in Springfield on January 21, 1949, she was an A-grade student back in school and held a Master's in education from Bryn Mawr College. Her life dream once was to teach to young students; however, after years of teaching jaded her positive image, and after her husband left for another woman, their marriage counselor, Edna started drinking her days away. She got fired from teaching in a prestigious private school, and eventually made her way into Springfield Elementary. From then on, she was portrayed as a caricature of the American public school system, as evidenced on the occasion when Lisa steals all the teachers' editions of the textbooks (which contain the answers). Moreover, dealing with Bart Simpson and his shenanigans did nothing but aggravate Edna's apathy."
       },
       "milhouse": {
         "name": "Milhouse Mussolini Van Houten",
@@ -127,14 +146,51 @@
       "hibbert": {
         "name": "Dr. Hibbert",
         "full_name": "Dr. Julius M. Hibbert",
-        "bio": "Dr. Hibbert is the Simpsons' kind-hearted family doctor, a genius, a graduate of the Johns Hopkins University School of Medicine and Mensa member. Hibbert is noticeably less dysfunctional than just about everyone else, though he does have a bizarre tendency to chuckle at inappropriate moments. He also gives questionable solutions to certain medical problems.\n\n addition to working at Springfield General Hospital, Hibbert runs the Dr. Julius Hibbert, M.D. Family Practice where he showed Lisa a video about DNA.[4] Homer also once took the kids to Hibbert's family practice to get them caught up on their inoculations.",
+        "bio": "Dr. Hibbert is the Simpsons' kind-hearted family doctor, a genius, a graduate of the Johns Hopkins University School of Medicine and Mensa member. Hibbert is noticeably less dysfunctional than just about everyone else, though he does have a bizarre tendency to chuckle at inappropriate moments. He also gives questionable solutions to certain medical problems.\n\n In addition to working at Springfield General Hospital, Hibbert runs the Dr. Julius Hibbert, M.D. Family Practice where he showed Lisa a video about DNA. Homer also once took the kids to Hibbert's family practice to get them caught up on their inoculations.",
         "sex": "male"
       },
       "selma": {
         "name": "Selma Bouvier",
         "full_name": "Selma Bouvier-Terwilliger-Hutz-McClure-Discothèque-Simpson-D'Amico",
+        "born": 1951,
         "sex": "female",
-        "bio": "Selma Bouvier was born two minutes before Patty. Due to a childhood bottle rocket accident, she lost the senses of taste and smell. Selma's favorite film actor was reportedly Troy McClure, to whom she was briefly married before discovering it was just a publicity stunt by McClure. She was willing to live a sham for a while, but broke it off when she realized she couldn't bring a child into a loveless marriage.[5] According to Marge, Selma is \"the one who likes Police Academy movies, Hummel figurines, and walking through the park on clear autumn days.\""
+        "bio": "Selma Bouvier was born two minutes before Patty. Due to a childhood bottle rocket accident, she lost the senses of taste and smell. Selma's favorite film actor was reportedly Troy McClure, to whom she was briefly married before discovering it was just a publicity stunt by McClure. She was willing to live a sham for a while, but broke it off when she realized she couldn't bring a child into a loveless marriage. According to Marge, Selma is \"the one who likes Police Academy movies, Hummel figurines, and walking through the park on clear autumn days.\"",
+        "age": 41
+      },
+      "patty": {
+        "name": "Patty Bouvier",
+        "full_name": "Patricia \"Patty\" Bouvier",
+        "born": 1951,
+        "sex": "female",
+        "bio": "Despite the similarities between her and Selma, Patty has been shown to be more jaded than her sister, particularly towards relationships. Marge once said that Patty chose a life of celibacy, but Selma had it thrust upon her. Patty's decision to not have relationships has been implied to be due to her then-closeted sexuality. When her Aunt Gladys dies, Gladys records in her video will advice to Patty and Selma to get married and have a family. Selma takes this to heart, while Patty seems to pay no attention, remarking that they did well with Gladys leaving them her grandfather clock.",
+        "age": 41
+      },
+      "flanders": {
+        "name": "Ned Flanders",
+        "full_name": "Nedward \"Ned\" Flanders",
+        "sex": "male",
+        "bio": "Nedward \"Ned\" Flanders is the Simpson family's extremely religious next \"diddly-door\" neighbor. He is a genuinely well-meaning good-natured person, and is one of the few in Springfield to whom that description applies. Though firmly religious, he can be timid and something of an easy pushover. He thoroughly worships God and strictly follows the Bible as literally as possible and is easily shocked when challenged on any point of dogma. He also owns the Leftorium and a home business, Flancrest Enterprises, which makes religious hook rugs. He also works as a member of the Springfield Volunteer Fire Department.",
+        "age": 60
+      },
+      "ralph": {
+        "name": "Ralph Wiggum",
+        "full_name": "Raphael \"Ralph\" Wiggum",
+        "born": "February 10, 1982",
+        "age": 8,
+        "bio": "Ralph is often seen in very awkward situations such as eating paste, crayons, worms, clay, knobs, lamps, and the Easter bunny, and other such erratic forms of behavior that have since become a staple of the character. Ralph has a rather immense imagination, and is seemingly oblivious to the world around him. As such, he is generally a cheerful boy. However, Ralph also has a hint of tragedy and dark satire to him, like almost every other character on the show. Throughout the show's history, Ralph is eternally the odd one out among his peers at school."
+      },
+      "wiggum": {
+        "name": "Chief Wiggum",
+        "full_name": "Chief Clarence \"Clancy\" Wiggum",
+        "age": 43,
+        "sex": "male",
+        "bio": "Chief Clarence \"Clancy\" Wiggum, is the head of police of the Springfield Police Department.\n\nHe, along with most of Springfield's government and its police force, is also corrupt, having asked for or taken bribes several times. When Bart bribed him with stolen wedding presents, he told him to read his badge and, at the bottom of the badge, was the caption \"Cash Bribes Only\". He has a strained friendship with Mayor Quimby. This strained relationship may help to explain why Wiggum has retained his job, despite his inability to do any of his duties."
+      },
+      "moe": {
+        "name": "Moe Szyslak",
+        "full_name": "Morris \"Moe\" Szyslak",
+        "sex": "male",
+        "born": "November 24, 1936"
       }
     }
   }

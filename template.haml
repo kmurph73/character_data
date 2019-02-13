@@ -5,8 +5,13 @@
     %title Character Data
   %body
     %h2 Characters
+    - people.group_by(&:show_id).each do |show_id, people|
+      %div{style: 'margin-top: 10px'}
+        %b #{show_id.split('_').map(&:capitalize).join(' ')}:
+        %span= link_people(people)
+
     - people.each do |person|
-      %div{style: 'margin-top: 20px'}
+      %div{id: person.full_id, style: 'margin-top: 20px'}
         - person.attrs.each do |attr|
           %div
             %b #{attr}:
@@ -18,6 +23,6 @@
               %div
                 %div
                   %a{href: img.path}
-                    %img{src: img.path, style: 'max-width:200px'}
+                    %img{src: img.path, style: 'max-width:200px;margin-right:10px'}
                 %div
                   #{img.size.join('x')}; #{img.type}

@@ -16,6 +16,10 @@ module CharacterData
       @attrs = []
     end
 
+    def full_id
+      "#{show_id}-#{id}"
+    end
+
     def email
       "#{id}@#{show_id}.com"
     end
@@ -36,7 +40,7 @@ module CharacterData
 
     def self.all_images
       @images ||= Find.find(IMG_DIR).select do |f|
-        f.match?(/\.(webp|jpeg|jpg|png)$/)
+        f.match?(/\.(webp|jpeg|jpg|png|gif)$/)
       end.map do |f|
         CharacterData::Image.new(realpath: f)
       end

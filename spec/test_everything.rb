@@ -6,11 +6,13 @@ RSpec.describe CharacterData::Person do
     it 'just friggin works' do
       people = CharacterData::Person.all
 
-      expect(people.length).to eq(19)
+      expect(people.length).to eq(26)
       bojack = people[0]
 
       expect(bojack.attrs).to eq(['name', 'full_name', 'job', 'sex', 'species', 'born', 'bio'])
       expect(bojack.name).to eq('Bojack Horseman')
+      expect(bojack.id).to eq('bojack')
+      expect(bojack.full_id).to eq('bojack_horseman-bojack')
       expect(bojack.born).to eq(1964)
       expect(bojack.email).to eq('bojack@bojack_horseman.com')
 
