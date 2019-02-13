@@ -20,7 +20,7 @@
       },
       "diane": {
         "name": "Diane Nguyen",
-        "bio": "an American writer, misunderstood intellectual, and third-wave feminist from Boston who lived with her well-off and famous husband, Mr. Peanutbutter, until their divorce in Season 5.",
+        "bio": "An American writer, misunderstood intellectual, and third-wave feminist from Boston who lived with her well-off and famous husband, Mr. Peanutbutter, until their divorce in Season 5.",
         "born": 1980,
         "sex": "female",
         "species": "human"
@@ -67,7 +67,6 @@
         "full_name": "Bartholomew JoJo Simpson",
         "born": "April 1",
         "sex": "male",
-        "id": "bart",
         "bio": "Bart's a self-proclaimed underachiever constantly in detention. He's easily distracted (even, strangely enough, by algebraic equations). His penchant for shocking people began before he was born: Bart 'mooned' Dr. Hibbert while he performed a sonogram on Marge, and moments after being born, he set fire to Homer's tie. His blood type's the very rare Double O Negative (OO-); only he and Mr. Burns are known to have it."
       },
       "lisa": {
@@ -76,7 +75,6 @@
         "full_name": "Lisa Marie Simpson",
         "born": "May 9",
         "sex": "female",
-        "id": "lisa",
         "bio": "Lisa Marie Simpson is a charismatic 8-year-old girl, who exceeds the standard achievement level of children her age. Not to everyone's surprise, she's also the moral center of her family. In her upbringing, Lisa lacks parental involvement of Homer and Marge, which leads to hobbies like playing saxophone and guitar, riding and caring for horses, and interest in advanced studies. In school, Lisa's popularity's affected by those who view her as a geeky overachiever, which leaves her with only a few friends. Lisa Simpson's a smart, witty, independent girl who focuses on her goals and strives to reach her potential, and at age 8 she's already a member of MENSA with an IQ of 159."
       },
       "marge": {
@@ -85,12 +83,52 @@
         "born": "Oct 1, 1956",
         "age": 36,
         "sex": "female",
-        "id": "marge",
         "bio": "Marjorie Jacqueline 'Marge' Simpson (née Bouvier) is a fictional character in the American animated sitcom The Simpsons and part of the eponymous family. She is voiced by Julie Kavner and first appeared on television in The Tracey Ullman Show short 'Good Night' on April 19, 1987. Marge was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on Life in Hell but instead decided to create a new set of characters. He named the character after his mother Margaret Groening. After appearing on The Tracey Ullman Show for three seasons, the Simpson family received their own series on Fox, which debuted December 17, 1989."
       },
       "lenny": {
         "name": "Lenny Leonard",
+        "sex": "male",
         "bio": "Despite being shown in the First Church of Springfield, Lenny is a Buddhist. Born in Chicago, he is also a war hero and a three-time juror. His grandmother spent 20 years in a Soviet labor camp, hinting that Lenny may have ancestors from the former Soviet Union, or have ancestors who were POWs. Lenny was a member of the Springfield chapter of the Stonecutters secret society (Number 12, outranking Mr. Burns). Lenny seems to have little regard for his own life: \"Quick and pointless, that's the death for me\". Another example of his apathy towards salvation is that he shrugs after being pulled from a ladder which would have seen him and Homer to safety. In \"Mommie Beerest\", Lenny has a magazine cover from the week of his birth, the headline reads 'Bloodbath in Laos' this means his date birth is possibly in March of 1971, in that date Life magazine published on its cover photos of Laotian Civil War.  Lenny is left-handed. He also has a psychiatric disorder, for which he takes medication."
+      },
+      "carl": {
+        "name": "Carl Carlson",
+        "sex": "male",
+        "bio": "Carl is an African-American Buddhist who apparently grew up in Iceland (he once nostalgically referred to his \"Icelandic boyhood\"). He holds a master's degree in nuclear physics and is fond of bowling and drinking at Moe's Tavern.  Lenny, Carl and Homer have apparently been friends for most of their lives. Flashbacks show them as friends during childhood and high school, and they all began working at the nuclear power plant around the same time."
+      },
+      "edna": {
+        "name": "Edna Krabappel",
+        "sex": "female",
+        "age": 41,
+        "job": "Fourth grade teacher at Springfield Elementary",
+        "bio": "Born in Springfield on January 21, 1949, she was an A-grade student back in school and held a Master's in education from Bryn Mawr College. Her life dream once was to teach to young students; however, after years of teaching jaded her positive image, and after her husband left for another woman, their marriage counselor, Edna started drinking her days away. She got fired from teaching in a prestigious private school[6], and eventually made her way into Springfield Elementary. From then on, she was portrayed as a caricature of the American public school system, as evidenced on the occasion when Lisa steals all the teachers' editions of the textbooks (which contain the answers). Moreover, dealing with Bart Simpson and his shenanigans did nothing but aggravate Edna's apathy."
+      },
+      "milhouse": {
+        "name": "Milhouse Mussolini Van Houten",
+        "full_name": "Milhouse Mussolini Van Houten",
+        "sex": "male",
+        "age": 10,
+        "born": "July 1, 1980",
+        "bio": "He is a ten year old boy and Bart Simpson's best friend. As the only child of Kirk and Luann Van Houten, Milhouse's most distinctive physical traits are his blue hair, big nose and extreme nearsightedness (depicted by very small eyes), requiring thick glasses to correct. He has regular intelligence but somewhat poor social skills. Although devious in his own way, Milhouse is quite gullible, which is why he is often led into trouble by Bart, who is not shy about taking advantage of the other's naïveté. Milhouse appears as a Master Builder in The Lego Movie. He also appears in the new Simpsons Lego sets."
+      },
+      "willie": {
+        "name": "Groundskeeper Willie",
+        "full_name": "Dr. William \"Willie\" MacDougal III",
+        "sex": "male",
+        "bio": "Dr. William \"Willie\" MacDougal III, also known as G.K. Willington Esquire, and William MacMoran (born 1940, age 50) is the groundskeeper and janitor of Springfield Elementary School who's originally from Scotland. Willie's job is to supervise the children of the School during recess, and clean the halls. He is recognizable with his red hair and thick Scottish accent. He is often either a formidable enemy or an invaluable ally to Bart and Lisa Simpson; mostly, he has a strained relationship with Principal Seymour Skinner. Willie's either originally from the Scottish city of Kirkwall or a place called North Kilttown, which is likely a reference to the hamlet of Domaduir, near Kyle of Lochalsh.  He is 50 years old.",
+        "age": 45
+      },
+      "skinner": {
+        "name": "Principal Skinner",
+        "full_name": "W. Seymour Skinner",
+        "bio": "Seymour is ethnically Armenian, the name \"Armin Tamzarian\" would suggest he is from Eastern Armenian heritage. Skinner is an impostor. Born as Armin Tamzarian, he grew up in Capital City. He was a troubled orphan and rebellious teenager until he was forced into the United States Army during the Vietnam War. There, he was befriended by Sgt. Seymour Skinner, whom he came to idolize.",
+        "sex": "male",
+        "age": 46
+      },
+      "hibbert": {
+        "name": "Dr. Hibbert",
+        "full_name": "Dr. Julius M. Hibbert",
+        "bio": "Dr. Hibbert is the Simpsons' kind-hearted family doctor, a genius, a graduate of the Johns Hopkins University School of Medicine and Mensa member. Hibbert is noticeably less dysfunctional than just about everyone else, though he does have a bizarre tendency to chuckle at inappropriate moments. He also gives questionable solutions to certain medical problems.\n\n addition to working at Springfield General Hospital, Hibbert runs the Dr. Julius Hibbert, M.D. Family Practice where he showed Lisa a video about DNA.[4] Homer also once took the kids to Hibbert's family practice to get them caught up on their inoculations.",
+        "sex": "male"
       }
     }
   }
