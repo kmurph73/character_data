@@ -1,6 +1,6 @@
-List of characters and data/images provided: https://kmurph73.github.io/character_data/
-
 Dummy TV show / movie character data for seeding "people" (including avatars / images) in your app - eg for a social networking site.
+
+List of characters and data/images provided: https://kmurph73.github.io/character_data/
 
 Install via `gem 'character_data', github: 'kmurph73/character_data'` in your Gemfile.
 
