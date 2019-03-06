@@ -191,6 +191,13 @@
         "full_name": "Morris \"Moe\" Szyslak",
         "sex": "male",
         "born": "November 24, 1936"
+      },
+      "burns": {
+        "name": "Mr. Burns",
+        "full_name": "Montgomery Burns",
+        "born": "1881",
+        "job": "Owner of Springfield Nuclear Power Plant",
+        "bio": "Burns is known for being the owner and chairman of the Springfield Nuclear Power Plant. Burns is Springfield's wealthiest and most powerful citizen. His net worth has been stated to be in the billions and in one instance was pegged at exactly $1,800,037,022, although it has fluctuated throughout the series."
       }
     }
   }
