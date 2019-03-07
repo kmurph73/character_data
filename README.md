@@ -39,20 +39,6 @@ CharacterData::Person.all.each do |person|
 end
 ```
 
-Current shows & characters (many more to come!): 
-* Bojack Horseman
-  * Bojack Horseman
-  * Princess Carolyn
-  * Diane Nguyen
-  * Todd Chavez
-  
-* The Simpsons
-  * Homer Simpson
-  * Krusty the Clown
-  * Bart Simpson
-  * Lisa Simpson
-  * Marge Simpson
-
 ![bojack](https://raw.githubusercontent.com/kmurph73/character_data/master/lib/data/images/bojack_horseman/bojack1.jpg)
 
 Simpson age sources: https://www.quora.com/If-all-The-Simpsons-characters-aged-how-old-would-they-be
